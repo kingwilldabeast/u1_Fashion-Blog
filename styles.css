@@ -1,0 +1,68 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto 0;
+}
+
+
+
+header, main, footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+.navigation-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-nav {
+    color: lightgray;
+}
+
+.bottom-nav {
+    color: tomato;
+}
+
+h3, h4 {
+    font-size: 30px;
+}
+
+.continue {
+    color: tomato;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2 rem;
+}
+
+p::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: lightgray;
+  }
+
+  .copyright {
+    color: lightgray;
+    font-size: 20px;
+  }
